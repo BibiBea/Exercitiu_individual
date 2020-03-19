@@ -11,7 +11,7 @@ public abstract class Document {
 
     @Override
     public String toString() {
-        String res = "";
+        String res = "modificat      ";
         for (String cuvant : continut) {
             res += cuvant + " ";
         }
